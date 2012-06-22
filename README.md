@@ -21,7 +21,7 @@ The app is supported on Android platforms v4 (aka v1.6) onwards.
 
 For more information see the following wiki pages.
 
-* [Getting Started](http://wiki.github.com/koppi/android-app-lqfb/getting-started)
+* [Getting Started](http://wiki.github.com/koppi/liquidroid/getting-started)
 
 ## License
 Copyright (c) 2012 [Jakob Flierl](http://github.com/koppi)
