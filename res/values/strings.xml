@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="koppi_right">Copyright 2011&#8211;2012 Jakob Flierl</string>
+    
+    <string name="actionbar_activity_not_found">Failed to open intent&#8230;</string>
+
+    <string name="app_name">LiquidDroid</string>
+    
+    <string name="event">Event</string>
+    
+    <!-- Titles -->
+    <string name="title_sign_in">Login</string>
+    
+    <!-- Menus -->
+    <string name="menu_feedback">Feedback</string>
+    <string name="menu_refresh">Refresh</string>
+    <string name="menu_test">Test</string>
+    <string name="menu_explore">Explore</string>
+    
+    <string name="menu_accounts">Accounts</string>
+    <string name="menu_members">Members</string>
+    <string name="menu_contacts">Contacts</string>
+    <string name="menu_profile">Profile</string>
+    <string name="menu_login">Login</string>
+    <string name="menu_logout">Logout</string>
+    
+    <string name="menu_sort_ascending">Sort ascending</string>
+    <string name="menu_sort_descending">Sort descending</string>
+    <string name="menu_sort_by_id">Sort by Id</string>
+	<string name="menu_sort_by_name">Sort by Name</string>
+	
+	<string name="menu_area_delegation_change">Change area delegation</string>
+	<string name="menu_area_participate">Participate in this area</string>
+	<string name="menu_area_withdraw">Withdraw area participation</string>
+	
+	<string name="issue_create">Create a new issue</string>
+	
+	<!-- Accounts -->
+	<string name="account_add">Add account</string>
+	
+    <!-- LiquiDroid  -->
+    <string name="lqfb_name">Instance Name</string>
+	<string name="lqfb_web_url">Web URL, e.g. http://host/lf2/</string>
+    <string name="lqfb_url">API URL, e.g. http://host:port/</string>
+	<string name="lqfb_key">API key, e.g. LKN43nEF357MFF54X</string>
+    <string name="bt_lqfb_save">Save..</string>
+    
+    <string name="lqfb_explore">Explore</string>
+    
+    <string name="lqfb_about_instance">About this instance:</string>
+    
+    <string name="lqfb_initiatives">Initiatives:</string>
+    <string name="lqfb_issues">Issues:</string>
+    <string name="lqfb_members">Members:</string>
+    
+    <string name="lqfb_last_synced">Last synced:</string>
+    <string name="lqfb_last_synced_never">Last synced: never.</string>
+    
+    <string name="lqfb_signing_in">Signing in&#8230;</string>
+    <string name="lqfb_invalid_api_key">Invalid API key</string>
+    
+    <!-- AreaTreeCachedActivity -->
+    <string name="units_and_areas">Units &amp; Areas</string>
+    
+    <!-- BaseActivity -->
+    <string name="successful_signout">Successful sign out</string>
+    
+    <!-- ContactsListCached -->
+    <string name="contacts">Contacts</string>
+    
+    <!-- EventsListCachedActivity -->
+    <string name="events">Events</string>
+    
+    <!-- LQFBListCachedActivity / LQFBEditActivity -->
+    <string name="lqfb_edit_instances">Edit LiquidFeedback instances</string>
+    <string name="insert">Insert</string>
+    <string name="delete">Delete</string>
+    <string name="duplicate">Duplicate</string>
+    <string name="saved_changes">Saved changes</string>
+    
+    <!-- MemberListCachedActivity -->
+    <string name="members">Members</string>
+    <string name="member_api_key">API key</string>
+    <string name="member_sign_in">Sign in</string>
+    
+    <!--  Activity IssueTreeCachedActivity -->
+    <string name="issues">Issues</string>
+    <string name="issues_open">Open</string>
+    <string name="issues_closed">Closed</string>
+    
+    <string name="issue_state_any_phase"     >Any phase</string>
+    <string name="issue_state_new"           >New</string>
+  	<string name="issue_state_discussion"    >Discussion</string>
+    <string name="issue_state_frozen"        >Frozen</string>
+    <string name="issue_state_voting"        >Voting</string>
+    
+    <string name="issue_state_any_state"     >Any state</string>
+    <string name="issue_state_finished"      >Finished</string>
+    <string name="issue_state_with_winner"   >With winner</string>
+    <string name="issue_state_without_winner">Without winner</string>
+    <string name="issue_state_cancelled"     >Cancelled</string>
+    
+    <string name="area_events">Events</string>
+    <string name="area_issues_open">Open issues</string>
+    <string name="area_issues_closed">Closed issues</string>
+    <string name="area_participants">Participants</string>
+    <string name="area_delegations">Delegations</string>
+    
+    <string name="area_join_success">Joined area #%1$s.</string>
+    <string name="area_leave_success">Leaved area #%1$s.</string>
+    <string name="area_join_error">%2$s</string>
+    <string name="area_leave_error">%2$s</string>
+    
+    <!-- Common -->
+    <string name="record_not_found">%1$s not found</string>
+    <string name="more_data_1">%1$s</string>
+    <string name="more_data">%1$s | %2$s</string>
+    <string name="more_data_3">%1$s | %2$s | %3$s</string>
+    <string name="loading">Loading&#8230;</string>
+    <string name="search">Search</string>
+    <string name="activity">Activity</string>
+    <string name="logout">Sign out</string>
+    <string name="login">Sign in</string>
+    <string name="please_wait">Please wait</string>
+    <string name="logging_in">Signing in&#8230;</string>
+    
+    <string name="invalid_login">Invalid API key</string>
+    <string name="sign">&lt;i>Sent via LiquidDroid App&lt;i></string>
+    <string name="label_it">Update</string>
+    <string name="cancel">Cancel</string>
+    <string name="promote">Help Promote LiquidDroid</string>
+    <string name="promote_desc">(When checked, the signature \'Sent via LiquiDroid App\' will appear at the bottom of the message)</string>
+    <string name="about">About</string>
+    <string name="my_name">Jakob Flierl</string>
+    <string name="my_email">jakob.flierl@gmail.com</string>
+    <string name="my_web">https://github.com/koppi/android-app-lqfb</string>
+    <string name="my_username">koppi</string>
+    <string name="my_repo">lqfb</string>
+    <string name="feedback">Feedback</string>
+    <string name="feedback_text">If you have any issues or suggestions, please contact me.  Any kind of feedback is greatly appreciated.</string>
+    <string name="feedback_by_email">By Email</string>
+    <string name="feedback_by_gh4a">By LiquiDroid</string>
+    <string name="settings">Settings</string>
+    <string name="bookmarks">Bookmarks</string>
+    <string name="donate">Donate</string>
+    <string name="donate_text">LiquiDroid is open source and will always be available for free.  If you find it useful consider donating via Paypal (jakob.flierl@gmail.com).  Thank you.</string>
+    
+    <!-- User -->
+    
+    <plurals name="user">
+        <item quantity="one">User</item>
+        <item quantity="other">Users</item>
+    </plurals>
+    <string name="user">User</string>
+    <string name="user_login">Sign in</string>
+    <string name="user_name">Name</string>
+    
+    <string name="user_identification">Idenfitication</string>
+    <string name="user_organization">Organization</string>
+    <string name="user_realname">Realname</string>
+    <string name="user_birthday">Birthday</string>
+    <string name="user_address">Address</string>
+    
+    
+    <string name="user_username">Nickname</string>
+    <string name="user_password">API key</string>
+    <string name="user_email">Email</string>
+    <string name="user_website">Website</string>
+    <string name="user_company">Organization</string>
+    <string name="user_following">Following</string>
+    <string name="user_followers">Followers</string><!-- For type organization -->
+    <string name="user_members">Members</string><!-- For type organization -->
+    <string name="user_location">Location</string>
+    <string name="user_last_login">Last login %1$s</string>
+    <string name="user_pub_areas">Areas</string>
+    
+    <string name="user_save">Save&#8230;</string>
+    
+    <string name="user_gravatar">Gravatar</string>
+    
+    <string name="user_watched_repos">Watched Repositories</string>
+    <string name="user_pushable_repos">Pushable Repositories</string>
+    <string name="user_extra_data">%1$d followers | %2$d repos</string>
+    <string name="user_news_feed">News Feed</string>
+    <string name="user_your_actions">Your Actions</string>
+    <string name="user_public_activity">Public Activity</string>
+    <string name="user_private_activity">Private Activity</string>
+    <string name="user_organizations">Organizations</string>
+    
+    <string name="user_follow_action">Follow</string>
+    <string name="user_unfollow_action">Unfollow</string>
+    
+    <!-- Area -->
+    <plurals name="area">
+        <item quantity="one">Area</item>
+        <item quantity="other">Areas</item>
+    </plurals>
+    <string name="area_colon">: </string>
+    
+    <!-- MemberDetails -->
+    <string name="member_success_follow">Followed member #%1$s.</string>
+    <string name="member_success_unfollow">Unfollowed member #%1$s.</string>
+    <string name="member_error_follow">%2$s</string>
+    <string name="member_error_unfollow">%2$s</string>
+    
+</resources>

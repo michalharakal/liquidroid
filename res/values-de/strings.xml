@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!-- Titles -->
+    <string name="title_sign_in">Anmelden</string>
+	<string name="title_explore">Durchsuche</string>
+    
+    <!-- Actions -->
+    <string name="share">Teile</string>
+    
+	<!-- Menus -->
+    <string name="menu_edit_lqfbs">Editiere LQFBs</string>
+    <string name="menu_sign_in">Anmelden</string>
+    <string name="menu_feedback">Feedback</string>
+    <string name="menu_refresh">Aktualisieren</string>
+    <string name="menu_test">Test</string>
+    <string name="menu_explore">Durchsuchen</string>
+    
+    <string name="menu_accounts">Konten</string>
+    <string name="menu_members">Mitglieder</string>
+    <string name="menu_contacts">Kontakte</string>
+    <string name="menu_profile">Profil</string>
+    <string name="menu_login">Anmelden</string>
+    <string name="menu_logout">Abmelden</string>
+    
+    <string name="menu_sort_ascending">Sortiere aufsteigend</string>
+    <string name="menu_sort_descending">Sortiere absteigend</string>
+    <string name="menu_sort_by_id">Sortiere nach Id</string>
+	<string name="menu_sort_by_name">Sortiere nach Name</string>
+	
+	<string name="menu_area_delegation_change">Delegation für Themenbereich ändern</string>
+	<string name="menu_area_participate">Themenbereich beitreten</string>
+	<string name="menu_area_withdraw">Themenbereich verlassen</string>
+	
+	<string name="issue_create">Neues Thema anlegen</string>
+	
+	<!-- Accounts -->
+	<string name="account_add">Konto hinzufügen</string>
+	
+	<!-- LQFB  -->
+    <string name="lqfb_name">Name der Instanz</string>
+	<string name="lqfb_web_url">Web URL, z.B. http://host/lf2/</string>
+    <string name="lqfb_url">API URL, z.B. http://host:port/</string>
+	<string name="lqfb_key">API key, z.B. LKN43nEF357MFF54X</string>
+    <string name="bt_lqfb_save">Speichern..</string>
+    
+    <string name="lqfb_explore">Durchsuche</string>
+    
+    <string name="lqfb_about_instance">Über diese Instanz:</string>
+    
+    <string name="lqfb_initiatives">Inis:</string>
+    <string name="lqfb_issues">Themen:</string>
+    <string name="lqfb_members">Mitglieder:</string>
+    
+    <string name="lqfb_last_synced">Zuletzt synchronisiert:</string>
+    <string name="lqfb_last_synced_never">Zuletzt synchronisiert: noch nie.</string>
+    
+    <string name="lqfb_signing_in">Anmeldung läuft&#8230;</string>
+    <string name="lqfb_invalid_api_key">Ungültiger API-Schlüssel</string>
+    
+    <!-- AreaTreeCachedActivity -->
+    <string name="units_and_areas">Gliederungen &amp; Themenbereiche</string>
+    
+    <!-- BaseActivity -->
+    <string name="successful_signout">Erfolgreich abgemeldet</string>
+    
+    <!-- ContactsListCached -->
+    <string name="contacts">Kontakte</string>
+    
+    <!-- EventsListCachedActivity -->
+    <string name="events">Ereignisse</string>
+    
+    <!-- LQFBListCachedActivity / LQFBEditActivity-->
+    <string name="lqfb_edit_instances">Editiere LiquidFeedback Instanzen</string>
+    <string name="insert">Einfügen</string>
+    <string name="delete">Löschen</string>
+    <string name="duplicate">Kopieren</string>
+    <string name="saved_changes">Änderungen gespeichert</string>
+    
+    <!-- MemberListCachedActivity -->
+    <string name="members">Mitglieder</string>
+    <string name="member_api_key">API-Schlüssel</string>
+    <string name="member_sign_in">Anmelden</string>
+
+    <!--  Activity IssueTreeCachedActivity -->
+    <string name="issues">Themen</string>
+    <string name="issues_open">Offene</string>
+    <string name="issues_closed">Geschlossene</string>
+    
+    <string name="issue_state_any_phase"     >Alle Phasen</string>
+    <string name="issue_state_new"           >Neu</string>
+  	<string name="issue_state_discussion"    >Diskussion</string>
+    <string name="issue_state_frozen"        >Eingefroren</string>
+    <string name="issue_state_voting"        >Abstimmung</string>
+    
+    <string name="issue_state_any_state"     >Alle Zustände</string>
+    <string name="issue_state_finished"      >Abgeschlossen</string>
+    <string name="issue_state_with_winner"   >Mit Gewinner</string>
+    <string name="issue_state_without_winner">Ohne Gewinner</string>
+    <string name="issue_state_cancelled"     >Abgebrochen</string>
+
+    <string name="area_events">Ereignisse</string>
+    <string name="area_issues_open">Offene Themen</string>
+    <string name="area_issues_closed">Geschlossene Themen</string>
+    <string name="area_participants">Beteiligte</string>
+    <string name="area_delegations">Delegationen</string>
+    
+    <string name="area_join_success">Themenbereich %1$s beigetreten.</string>
+    <string name="area_leave_success">Themenbereich %1$s verlassen.</string>
+    <string name="area_join_error">%2$s</string>
+    <string name="area_leave_error">%2$s</string>
+    
+    <!-- MemberDetails -->
+    <string name="member_success_follow">Du folgst nun Mitglied #%1$s.</string>
+    <string name="member_success_unfollow">Du folgst nun Mitglied #%1$s nicht mehr.</string>
+    <string name="member_error_follow">%2$s</string>
+    <string name="member_error_unfollow">%2$s</string>
+    
+</resources>

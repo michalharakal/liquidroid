@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array
+        name="areas_array">
+        <item>Any Area</item>
+        <item>Solar System</item>
+    </string-array>
+    <string-array
+        name="search_types_array">
+        <item>Area</item>
+        <item>User</item>
+    </string-array>
+    <string-array
+        name="array_explore">
+        <item>Units</item>
+        <item>Latest events</item>
+        <item>Open issues</item>
+        <item>Closed issues</item>
+        <item>Members</item>
+    </string-array>
+    <string-array
+        name="array_explore_auth">
+        <item>Units</item>
+        <item>Latest events</item>
+        <item>Open issues</item>
+        <item>Closed issues</item>
+        <item>Members</item>
+        <item>Contacts</item>
+    </string-array>
+</resources>

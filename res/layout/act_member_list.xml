@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/inc_generic_list"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/liqui.droid"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+    <liqui.droid.util.ActionBar
+        android:id="@+id/actionbar"
+        app:title="@string/app_name"
+        style="@style/ActionBar" />
+    <include
+        layout="@layout/inc_breadcrumb"
+        android:id="@+id/breadcrumb" />
+
+    <LinearLayout
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:id="@+id/main_content"
+        android:layout_width="fill_parent"
+        android:orientation="vertical"
+        android:layout_height="fill_parent" >
+        
+        <EditText android:id="@+id/search_box" 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:nextFocusUp="@id/search_box"
+        android:nextFocusLeft="@id/search_box"
+        android:hint="type to filter"
+        android:inputType="text"
+        android:maxLines="1"/>
+        
+        <liqui.droid.util.IndexableListView
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+	        android:layout_width="fill_parent" 
+	        android:layout_height="wrap_content" 
+            android:id="@+id/list_view"
+            android:layout_weight="1" 
+	        android:padding="0dp" />
+    </LinearLayout>
+    <include
+        layout="@layout/inc_loading"
+        android:id="@+id/loading" />
+</LinearLayout>

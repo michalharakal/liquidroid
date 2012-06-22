@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@id/main_content"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="0dp"
+        android:padding="0dp" >
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="?attr/info_box">
+                <ImageButton
+                    android:contentDescription="@string/user_gravatar"
+                    android:clickable="false"
+                    android:id="@+id/iv_gravatar"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="5dp" />
+                <LinearLayout
+                    android:id="@+id/ll_user_info"
+                    android:layout_height="fill_parent"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_toRightOf="@id/iv_gravatar">
+                    <TextView
+                        android:id="@+id/tv_name"
+                        android:hint="@string/user_username"
+                        android:singleLine="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceLarge" />
+                    <TextView
+                        android:id="@+id/tv_email"
+                        android:hint="@string/user_email"
+                        android:singleLine="true"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:autoLink="email" />
+                    <TextView
+                        android:id="@+id/tv_website"
+                        android:hint="@string/user_website"
+                        android:singleLine="true"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:autoLink="web" />
+                    <TextView
+                        android:id="@+id/tv_address"
+                        android:hint="@string/user_address"
+                        android:singleLine="true"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:autoLink="map" />
+                    <TextView
+                        android:id="@+id/tv_identification"
+                        android:hint="@string/user_identification"
+                        android:singleLine="true"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium" />
+                    <TextView
+                        android:id="@+id/tv_organization"
+                        android:hint="@string/user_organization"
+                        android:singleLine="true"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium" />
+                    <TextView
+                        android:id="@+id/tv_realname"
+                        android:hint="@string/user_realname"
+                        android:singleLine="true"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium" />
+                    <TextView
+                        android:id="@+id/tv_birthday"
+                        android:hint="@string/user_birthday"
+                        android:singleLine="true"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium" />
+                    </LinearLayout>
+            </RelativeLayout>
+
+            
+        </LinearLayout>
+    </ScrollView>

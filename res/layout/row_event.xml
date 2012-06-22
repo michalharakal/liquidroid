@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/row_box">
+
+  <ImageView
+      android:id="@+id/iv_event"
+      android:layout_width="16dip"
+      android:layout_height="16dip"
+      android:layout_gravity="top"
+      android:layout_marginRight="5dp"
+      android:layout_marginTop="5dp"
+      android:contentDescription="@string/event"
+      android:src="@drawable/ic_application_form" />
+    
+  <LinearLayout
+      android:padding="3dip"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/row_box">
+  <LinearLayout
+      android:padding="0dip"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="?attr/row_box">
+      <TextView
+        android:text="ID"
+        android:id="@+id/tv_event_id"
+        android:layout_marginRight="7dip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+      <TextView
+          android:id="@+id/tv_event"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Event Title"
+          android:textAppearance="?android:attr/textAppearanceMedium" />
+
+      </LinearLayout>
+      <TextView
+        android:text="Event Description"
+        android:id="@+id/tv_desc"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+  </LinearLayout>
+</LinearLayout>

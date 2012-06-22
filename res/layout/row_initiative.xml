@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:padding="3dip"
+    android:layout_height="wrap_content"
+    android:background="?attr/row_box">
+
+    <ImageView
+        android:id="@+id/iv_initiative"
+        android:layout_width="30dip"
+        android:layout_height="30dip"
+        android:layout_gravity="center_vertical"
+        android:padding="3dip"
+        android:src="@drawable/ic_application_form" />
+    
+  <LinearLayout
+      android:layout_toRightOf="@id/iv_initiative"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:padding="0dip"
+    android:background="?attr/row_box">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/tv_initiative_name"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="0dip"
+            android:text="i59: Infostände" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <liqui.droid.util.BarGraphView
+            android:id="@+id/bg_count"
+            android:layout_width="80dip"
+            android:layout_height="12dip"
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="3dip"
+            android:paddingRight="21dip"
+            android:paddingTop="0dip"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    </LinearLayout>
+
+  </LinearLayout>
+    <ImageView
+        android:id="@+id/iv_support"
+        android:layout_alignParentRight="true"
+        android:layout_width="30dip"
+        android:layout_height="30dip"
+        android:layout_gravity="center_vertical"
+        android:padding="3dip"
+        android:visibility="invisible"
+        android:src="@drawable/ic_thumb_up_green" />
+    
+</RelativeLayout>

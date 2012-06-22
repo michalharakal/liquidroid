@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/row_box">
+    
+  <LinearLayout
+    android:orientation="vertical"
+    android:id="@+id/ll_vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="?attr/row_box">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="21dip"
+        android:paddingRight="21dip"
+        android:text="#1 - proposition - Moon affairs - Earth"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/tv_desc"
+        android:text="Voting - 8 days 7:36:34 left"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="21dip"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+  </LinearLayout>
+
+  <ImageView
+      android:id="@+id/iv_state"
+      android:layout_width="30dip"
+      android:layout_height="30dip"
+      android:layout_alignParentRight="true"
+      android:layout_centerVertical="true"
+      android:contentDescription="state"
+      android:src="@drawable/ic_application_form" />
+
+</RelativeLayout>

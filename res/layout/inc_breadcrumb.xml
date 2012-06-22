@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android">
+  <RelativeLayout
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/info_box">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <HorizontalScrollView
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:scrollbars="none">
+            <LinearLayout
+                android:id="@+id/ll_part"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+            </LinearLayout>
+        </HorizontalScrollView>
+        <liqui.droid.util.ScrollingTextView
+            android:id="@+id/tv_subtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?attr/textAppearanceSubtitle"
+            android:lines="1"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:scrollHorizontally="true"
+            android:ellipsize="marquee" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/iv_breadcrumb_right"
+        android:contentDescription="imageview right"
+        android:layout_width="35dip"
+        android:layout_height="35dip"
+        android:layout_alignParentRight="true"
+        android:visibility="invisible"
+        android:src="@drawable/ic_user_gray" />
+
+  </RelativeLayout>
+</merge>

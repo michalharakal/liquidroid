@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array
+        name="array_explore">
+        <item>Gliederungen &amp; Themenbereiche</item>
+        <item>Ereignisse</item>
+        <item>Offene Themen</item>
+        <item>Geschlossene Themen</item>
+        <item>Mitglieder</item>
+    </string-array>
+    <string-array
+        name="array_explore_auth">
+        <item>Gliederungen &amp; Themenbereiche</item>
+        <item>Ereignisse</item>
+        <item>Offene Themen</item>
+        <item>Geschlossene Themen</item>
+        <item>Mitglieder</item>
+        <item>Kontakte</item>
+    </string-array>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_contacts"   android:title="@string/menu_contacts"  android:icon="@drawable/ic_menu_friendslist" />
+    <item android:id="@+id/menu_profile"    android:title="@string/menu_profile"   android:icon="@drawable/ic_menu_profile" />
+    <item android:id="@+id/menu_accounts"   android:title="@string/menu_accounts"  android:icon="@drawable/ic_menu_account_list" />
+</menu>

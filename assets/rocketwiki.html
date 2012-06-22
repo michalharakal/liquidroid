@@ -1,0 +1,19 @@
+<html><head>
+<link href='rocketwiki.css' rel='stylesheet' type='text/css'/>
+<script type="text/javascript" src="jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="rocketwiki.js"></script>
+</head><body><textarea class="hidden" id="div">
+=== Test ===
+</textarea>
+
+<span style="display:block;margin:0px 0px 0px 0px;" class="wiky_preview_area" id="preview"/>
+
+<script>
+
+$(document).ready(function() {
+  $('#preview').html(rocketwiki.process($('#div').val()));
+  $('#preview').html(rocketwiki.process($('#div').val()));
+});
+</script>
+
+</body></html>

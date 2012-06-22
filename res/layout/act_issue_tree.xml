@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/main_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/liqui.droid"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <liqui.droid.util.ActionBar
+        android:id="@+id/actionbar"
+        style="@style/ActionBar"
+        app:title="@string/app_name" />
+
+    <RelativeLayout
+        android:id="@+id/breadcrumb"
+        android:layout_below="@id/actionbar"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/info_box">
+        <LinearLayout
+          android:orientation="vertical"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content">
+          <HorizontalScrollView
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:scrollbars="none">
+            <LinearLayout
+                android:id="@+id/ll_part"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+            </LinearLayout>
+        </HorizontalScrollView>
+        <liqui.droid.util.ScrollingTextView
+            android:id="@+id/tv_subtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?attr/textAppearanceSubtitle"
+            android:lines="1"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:scrollHorizontally="true"
+            android:ellipsize="marquee" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/iv_breadcrumb_right"
+        android:contentDescription="imageview right"
+        android:layout_width="35dip"
+        android:layout_height="35dip"
+        android:layout_alignParentRight="true"
+        android:visibility="invisible"
+        android:src="@drawable/ic_user_gray" />
+
+  </RelativeLayout>
+      
+        <ExpandableListView
+            android:id="@+id/list_view"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/ll_bottom"
+            android:layout_below="@+id/breadcrumb"
+            android:padding="0dp" >
+
+        </ExpandableListView>
+       <LinearLayout
+            android:id="@+id/ll_bottom"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal">
+        <Button
+            android:id="@+id/btn_0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="0dp"
+            android:background="@drawable/btn_bottom_bg"
+            android:textColor="#000000"
+            android:textSize="8dp"
+            android:text="@string/issue_state_any_phase" >
+        </Button>
+        <Button
+            android:id="@+id/btn_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="0dp"
+            android:background="@drawable/btn_bottom_bg"
+            android:textColor="#000000"
+            android:textSize="8dp"
+            android:text="@string/issue_state_new" >
+        </Button>
+        <Button
+            android:id="@+id/btn_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="0dp"
+            android:background="@drawable/btn_bottom_bg"
+            android:textColor="#000000"
+            android:textSize="8dp"
+            android:text="@string/issue_state_discussion" >
+        </Button>
+        <Button
+            android:id="@+id/btn_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="0dp"
+            android:background="@drawable/btn_bottom_bg"
+            android:textColor="#000000"
+            android:textSize="8dp"
+            android:text="@string/issue_state_frozen" >
+        </Button>
+        <Button
+            android:id="@+id/btn_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="0dp"
+            android:background="@drawable/btn_bottom_bg"
+            android:textColor="#000000"
+            android:textSize="8dp"
+            android:text="@string/issue_state_voting" >
+        </Button>
+        </LinearLayout>
+</RelativeLayout>

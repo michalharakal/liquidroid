@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="Experimental Features">
+        <CheckBoxPreference
+            android:key="Local_Caching"
+            android:title="Enable local caching"
+            android:defaultValue="false"
+            android:summary="Enable local caching for the app." />
+        <EditTextPreference
+            android:dialogTitle="API Token"
+            android:dialogMessage="Your API Token"
+            android:key="Api_Token"
+            android:title="API Token"
+            android:summary="The API Token can be found in your email account."/>
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/row_box"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:background="?attr/row_box"
+        android:orientation="vertical"
+        android:padding="0dip" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/row_box"
+            android:orientation="horizontal"
+            android:padding="3dip" >
+
+            <TextView
+                android:id="@+id/tv_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Title"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/tv_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/tv_title"
+                android:layout_alignBottom="@+id/tv_title"
+                android:layout_alignParentRight="true"
+                android:text="120"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/tv_count"
+                android:layout_alignBottom="@+id/tv_count"
+                android:layout_toLeftOf="@+id/tv_count"
+                android:text="#"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout1"
+        android:padding="3dip" >
+
+        <ImageView
+            android:id="@+id/iv_issues_new_count"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_new" />
+
+        <TextView
+            android:id="@+id/tv_issues_new_count"
+            android:layout_width="35dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:paddingLeft="3dip"
+            android:paddingRight="3dip"
+            android:text="#" />
+
+        <ImageView
+            android:id="@+id/iv_issues_discussion_count"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_comments" />
+
+        <TextView
+            android:id="@+id/tv_issues_discussion_count"
+            android:layout_width="35dip"
+            android:layout_height="wrap_content"
+            android:paddingLeft="3dip"
+            android:paddingRight="3dip"
+            android:text="#" />
+
+        <ImageView
+            android:id="@+id/iv_issues_frozen_count"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_lock" />
+
+        <TextView
+            android:id="@+id/tv_issues_frozen_count"
+            android:layout_width="35dip"
+            android:layout_height="wrap_content"
+            android:paddingLeft="3dip"
+            android:paddingRight="3dip"
+            android:text="#" />
+
+        <ImageView
+            android:id="@+id/iv_issues_voting_count"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_email_open" />
+
+        <TextView
+            android:id="@+id/tv_issues_voting_count"
+            android:layout_width="35dip"
+            android:layout_height="wrap_content"
+            android:paddingLeft="3dip"
+            android:paddingRight="3dip"
+            android:text="#" />
+
+        <ImageView
+            android:id="@+id/iv_issues_finished_count"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_tick" />
+
+        <TextView
+            android:id="@+id/tv_issues_finished_count"
+            android:layout_width="35dip"
+            android:layout_height="wrap_content"
+            android:paddingLeft="3dip"
+            android:paddingRight="3dip"
+            android:text="#" />
+
+        <ImageView
+            android:id="@+id/iv_issues_cancelled_count"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_cross" />
+
+        <TextView
+            android:id="@+id/tv_issues_cancelled_count"
+            android:layout_width="35dip"
+            android:layout_height="wrap_content"
+            android:paddingLeft="3dip"
+            android:paddingRight="3dip"
+            android:text="#" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/iv_membership"
+        android:layout_width="21dip"
+        android:layout_height="21dip"
+        android:layout_alignBottom="@+id/linearLayout2"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/ic_user_gray" />
+
+</RelativeLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/inc_generic_list"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/liqui.droid"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <liqui.droid.util.ActionBar
+        android:id="@+id/actionbar"
+        style="@style/ActionBar"
+        android:layout_alignParentTop="true"
+        app:title="@string/app_name" />
+
+    <LinearLayout
+        android:id="@+id/breadcrumb" 
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+            android:layout_below="@id/actionbar"
+        android:background="?attr/info_box">
+        <HorizontalScrollView
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:scrollbars="none">
+            <LinearLayout
+                android:id="@+id/ll_part"
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            </LinearLayout>
+        </HorizontalScrollView>
+        <liqui.droid.util.ScrollingTextView
+            android:id="@+id/tv_subtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?attr/textAppearanceSubtitle"
+            android:lines="1"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:scrollHorizontally="true"
+            android:ellipsize="marquee" />
+    </LinearLayout>
+
+        <ExpandableListView
+            android:id="@+id/list_view"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/breadcrumb"
+            android:padding="0dp" >
+
+        </ExpandableListView>
+</RelativeLayout>

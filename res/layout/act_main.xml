@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/liqui.droid"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+    <liqui.droid.util.ActionBar
+        android:id="@+id/actionbar"
+        app:title="@string/title_sign_in"
+        style="@style/ActionBar" />
+    
+    <ScrollView
+        android:id="@id/main_content"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="0dp"
+        android:padding="0dp">
+        
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/liqui.droid"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+        <LinearLayout
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_marginTop="3dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+        android:id="@+id/main_content"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15dip"
+        android:background="?attr/comment_box">
+
+        <Spinner
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:id="@+id/sp_lqfb_instance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+            <!-- Preview: listitem=@android:layout/simple_spinner_item -->
+        </Spinner>
+
+        <EditText
+            android:id="@+id/et_api_token"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:inputType="textAutoComplete"
+            android:hint="@string/member_api_key"
+            android:paddingLeft="15dip"
+            android:paddingRight="15dip"
+            android:singleLine="true"
+            android:nextFocusDown="@+id/btn_login" />
+        <Button
+            android:text="@string/member_sign_in"
+            android:id="@+id/btn_login"
+            android:layout_height="40dp"
+            android:layout_width="fill_parent"
+            android:layout_gravity="center_vertical|center_horizontal|center"
+            android:gravity="center_horizontal|center_vertical">
+        </Button>
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/ll_explore"
+        android:orientation="vertical"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+        android:layout_marginTop="3dp">
+
+        <TextView
+            android:id="@+id/tv_explore"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:background="?attr/comment_box"
+            android:gravity="center_vertical"
+            android:paddingBottom="14dip"
+            android:paddingLeft="21dip"
+            android:paddingRight="14dip"
+            android:paddingTop="14dip"
+            android:textAppearance="?attr/textAppearanceUrl" />
+    </LinearLayout>
+        
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,50 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_root"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="7dp">
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/koppi_right" />
+     <View
+                        android:id="@+id/separator"
+                        android:layout_width="fill_parent"
+                        android:layout_height="10dp" />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/my_email"
+        android:autoLink="email" />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/my_web"
+        android:autoLink="web" />
+     <View
+                        android:id="@id/separator"
+                        android:layout_width="fill_parent"
+                        android:layout_height="10dp" />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFF"
+        android:textAppearance="?android:attr/textAppearanceMedium" 
+        android:text="@string/feedback_text"/>
+     <View
+                        android:id="@id/separator"
+                        android:layout_width="fill_parent"
+                        android:layout_height="20dp" />
+    <Button
+        android:id="@+id/btn_by_email"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textAppearance="?android:attr/textAppearanceMedium" 
+        android:text="@string/feedback_by_email"/>
+</LinearLayout>

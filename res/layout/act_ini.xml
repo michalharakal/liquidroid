@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/liqui.droid"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <liqui.droid.util.ActionBar
+        android:id="@+id/actionbar"
+        style="@style/ActionBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:title="@string/app_name" />
+
+    <include
+        layout="@layout/inc_breadcrumb"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/breadcrumb" />
+
+    <com.viewpagerindicator.TitlePageIndicator
+	android:id="@+id/titles"
+	android:layout_height="wrap_content"
+	android:layout_width="fill_parent"
+	style="@style/Widget.TitlePageIndicator"  />
+    
+    <android.support.v4.view.ViewPager
+		android:id="@+id/viewpager"
+		android:layout_weight="1"
+		android:layout_width="fill_parent"
+		android:layout_height="0dip" >
+	</android.support.v4.view.ViewPager>
+	
+</LinearLayout>

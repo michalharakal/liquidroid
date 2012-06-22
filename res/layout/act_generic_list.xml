@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/inc_generic_list"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/liqui.droid"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+    <liqui.droid.util.ActionBar
+        android:id="@+id/actionbar"
+        app:title="@string/app_name"
+        style="@style/ActionBar" />
+    <include
+        layout="@layout/inc_breadcrumb"
+        android:id="@+id/breadcrumb" />
+    <FrameLayout
+        android:id="@+id/main_content"
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1">
+        <ListView
+            android:id="@+id/list_view"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:padding="0dp">
+            <!-- Preview: listitem=@layout/row_initiative -->
+        </ListView>
+    </FrameLayout>
+    <include
+        layout="@layout/inc_loading"
+        android:id="@+id/loading" />
+</LinearLayout>
