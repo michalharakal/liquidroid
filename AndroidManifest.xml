@@ -57,7 +57,8 @@
         </provider>
         
          <service android:name=".service.AccountAuthenticatorService"
-        	     android:exported="true" android:process=":auth">
+        	     android:exported="true" android:process=":auth"
+        	     android:permission="liqui.droid.permission.auth" >
                  <intent-filter>
                  	<action android:name="android.accounts.AccountAuthenticator" />
                  </intent-filter>
@@ -65,8 +66,9 @@
                             android:resource="@xml/authenticator" />
         </service>
         
-         <service android:name=".service.SyncService"
- 			android:exported="true" android:process=":sync">
+        <service android:name=".service.SyncService"
+ 			android:exported="true" android:process=":sync"
+ 			android:permission="liqui.droid.permission.sync" >
  			<intent-filter>
   				<action android:name="android.content.SyncAdapter" />
  			</intent-filter>
@@ -74,6 +76,17 @@
  			    android:name="android.content.SyncAdapter"
   				android:resource="@xml/sync_db" />
 		</service>
+		
+        <service android:name=".service.CalendarSyncService"
+			android:exported="true" android:process=":calendar"
+			android:permission="liqui.droid.permission.calendar" >
+			<intent-filter>
+				<action android:name="android.content.SyncAdapter" />
+			</intent-filter>
+			<meta-data android:name="android.content.SyncAdapter"
+				android:resource="@xml/sync_calendar" />
+		</service>
+        
         
         <activity
             android:name=".activity.LiquiDroid">

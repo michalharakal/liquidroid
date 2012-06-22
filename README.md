@@ -6,6 +6,10 @@ Goal of the project is a fully featured Android app connecting to [LiquidFeedbac
 ![screenshots-01.png](https://github.com/koppi/liquidroid/raw/master/screenshots-01.png)
 ![screenshots-02.png](https://github.com/koppi/liquidroid/raw/master/screenshots-02.png)
 
+## Follow us on Twitter
+
+To keep updated about the development, feel free to follow us on twitter: [@LiquiDroidApp](http://twitter.com/LiquiDroidApp).
+
 ## Build dependencies
 This project has the following dependencies:
 
