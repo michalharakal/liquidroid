@@ -3,8 +3,8 @@
 ## Description
 Goal of the project is a fully featured Android app connecting to [LiquidFeedback v2 API server](http://dev.liquidfeedback.org/trac/lf/wiki/lfapi).
  
-![screenshots-01.png](https://github.com/koppi/android-app-lqfb/raw/master/screenshots-01.png)
-![screenshots-02.png](https://github.com/koppi/android-app-lqfb/raw/master/screenshots-02.png)
+![screenshots-01.png](https://github.com/koppi/liquidroid/raw/master/screenshots-01.png)
+![screenshots-02.png](https://github.com/koppi/liquidroid/raw/master/screenshots-02.png)
 
 ## Build dependencies
 This project has the following dependencies:
